@@ -1,0 +1,68 @@
+/* Answer 2 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background-color: #EDEDED;
+}
+
+/* Answer 3 */
+h3 {
+    font-style: italic;
+    color: red;
+    border-bottom-style: solid;
+    border-bottom-color: #929CA4;
+}
+
+/* Answer 4 */
+p:first-of-type::first-letter{
+    font-size: 30px;
+}
+
+/* Answer 5 */
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+/* Answer 6 */
+#testimonial1, #testimonial2 {
+    font-style: italic;
+    margin-left: 50px;
+}
+
+/* Answer 7 */
+a[href*='http']:link {
+    color: red;
+    text-decoration: blue;
+}
+
+a[href*='http']:visited {
+    color: green;
+    text-decoration: yellow;
+}
+
+a[href*='http']:active {
+    color: black;
+    text-decoration: green;
+}
+
+a[href*='http']:hover {
+    color: blue;
+    text-decoration: brown;
+}
+
+/* Answer 8 */
+ul {
+    list-style: none;
+}
+
+/* Answer 9 */
+li:first-of-type {
+    color: blue;
+}
+
+/* Answer 10 */
+li:last-of-type {
+    color: red;
+}
